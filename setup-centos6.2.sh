@@ -30,7 +30,7 @@ adduser --system --shell /bin/sh -c 'Git Version Control' --home /data/git git
 mkdir -p /data/git
 chown git:git /data/git
 
-adduser -c 'GitLab' --home /data/git gitlab
+adduser -c 'GitLab' --home /data/gitlab gitlab
 mkdir -p /data/gitlab
 chown gitlab:gitlab /data/gitlab
 
